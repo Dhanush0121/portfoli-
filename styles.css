@@ -288,35 +288,12 @@ h3 {
 }
 
 .hero-visual {
-  position: relative;
-  display: flex;
   width: 100%;
   max-width: 390px;
-  min-height: 310px;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-self: end;
-  padding: 24px;
-  background: var(--green);
-  color: var(--white);
-  box-shadow: 15px 15px 0 var(--lime);
-}
-
-.visual-topline {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 0;
-  color: #d4e3d7;
-  font-size: 9px;
-  font-weight: 700;
-}
-
-.portrait-wrap {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
   aspect-ratio: 3 / 4;
-  background: #dce5d8;
+  overflow: hidden;
+  justify-self: end;
+  box-shadow: 15px 15px 0 var(--lime);
 }
 
 .portrait {
@@ -325,67 +302,6 @@ h3 {
   height: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-.portrait-index {
-  position: absolute;
-  right: 14px;
-  bottom: 12px;
-  color: var(--white);
-  font-family: var(--font-display);
-  font-size: 12px;
-  font-weight: 800;
-  text-shadow: 0 1px 8px rgb(0 0 0 / 70%);
-}
-
-.visual-result {
-  padding-left: 30px;
-}
-
-.visual-result p:first-child {
-  margin: 0 0 9px;
-  color: #d4e3d7;
-  font-size: 9px;
-  font-weight: 700;
-}
-
-.visual-result strong {
-  display: block;
-  color: var(--lime);
-  font-family: var(--font-display);
-  font-size: clamp(64px, 7vw, 86px);
-  font-weight: 700;
-  line-height: 0.95;
-}
-
-.visual-result strong small {
-  font-size: 0.42em;
-}
-
-.visual-result p:last-child {
-  max-width: 260px;
-  margin: 15px 0 0;
-  color: #d4e3d7;
-  font-size: 12px;
-}
-
-.visual-stamp {
-  position: absolute;
-  top: 50%;
-  left: -42px;
-  display: grid;
-  width: 74px;
-  aspect-ratio: 1;
-  place-content: center;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  background: var(--coral);
-  color: var(--ink);
-  font-size: 9px;
-  font-weight: 800;
-  line-height: 1.2;
-  text-align: center;
-  transform: translateY(-50%) rotate(-12deg);
 }
 
 .scroll-cue {
@@ -882,11 +798,6 @@ h3 {
     font-size: clamp(65px, 10vw, 90px);
   }
 
-  .visual-stamp {
-    left: -27px;
-    width: 60px;
-  }
-
   .about {
     column-gap: 55px;
   }
@@ -1011,14 +922,8 @@ h3 {
 
   .hero-visual {
     max-width: 390px;
-    min-height: 280px;
     justify-self: center;
     box-shadow: 10px 10px 0 var(--lime);
-  }
-
-  .visual-stamp {
-    left: -20px;
-    width: 58px;
   }
 
   .scroll-cue {
