@@ -3,7 +3,7 @@
   --paper: #f4f6f1;
   --paper-deep: #e9eee6;
   --ink: #17251f;
-  --muted: #58645c;
+  --muted: #3b4840;
   --line: #cdd5ca;
   --green: #174d3e;
   --lime: #d1ec75;
@@ -34,6 +34,7 @@ body {
   color: var(--ink);
   font-family: var(--font-body);
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
