@@ -105,13 +105,13 @@ a:focus-visible {
 }
 
 .wordmark-mark {
-  display: grid;
+  display: block;
   width: 34px;
+  height: 34px;
   aspect-ratio: 1;
-  place-items: center;
+  object-fit: cover;
+  object-position: center;
   background: var(--green);
-  color: var(--lime);
-  font-size: 17px;
 }
 
 .site-nav {
