@@ -418,16 +418,10 @@ h3 {
 .skill-row {
   display: grid;
   min-height: 86px;
-  grid-template-columns: 62px minmax(180px, 0.7fr) 1.4fr;
+  grid-template-columns: minmax(180px, 0.7fr) 1.4fr;
   align-items: center;
   gap: 20px;
   border-bottom: 1px solid #bac6b9;
-}
-
-.skill-number {
-  color: var(--coral);
-  font-size: 11px;
-  font-weight: 700;
 }
 
 .skill-row h3 {
@@ -970,15 +964,9 @@ h3 {
   }
 
   .skill-row {
-    grid-template-columns: 34px 1fr;
+    grid-template-columns: 1fr;
     gap: 2px 12px;
     padding: 17px 0;
-  }
-
-  .skill-number {
-    grid-row: 1 / span 2;
-    align-self: start;
-    padding-top: 3px;
   }
 
   .skill-row h3 {
@@ -986,7 +974,7 @@ h3 {
   }
 
   .skill-row p {
-    grid-column: 2;
+    grid-column: 1;
     font-size: 12px;
   }
 
