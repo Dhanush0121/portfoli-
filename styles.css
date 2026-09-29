@@ -126,7 +126,7 @@ a:focus-visible {
   align-items: center;
   gap: clamp(18px, 2.4vw, 34px);
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -172,7 +172,7 @@ a:focus-visible {
 .eyebrow {
   margin: 0;
   color: var(--green);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -248,7 +248,7 @@ h3 {
   justify-content: center;
   gap: 24px;
   padding: 0 19px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   transition: background 180ms ease, color 180ms ease, transform 180ms ease;
 }
@@ -271,7 +271,7 @@ h3 {
   align-items: center;
   gap: 12px;
   color: var(--green);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   transition: color 180ms ease;
 }
@@ -314,7 +314,7 @@ h3 {
   align-items: center;
   gap: 13px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .scroll-cue span:last-child {
@@ -396,7 +396,7 @@ h3 {
 .fact-item span {
   max-width: 250px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .section-band {
@@ -433,7 +433,7 @@ h3 {
 .skill-row p {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .skill-row p span {
@@ -468,7 +468,7 @@ h3 {
   top: 25px;
   left: 28px;
   color: #d4e3d7;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -493,7 +493,7 @@ h3 {
 .project-aside p {
   margin: 15px 0 0;
   color: #e2eadf;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .project-rule {
@@ -506,7 +506,7 @@ h3 {
 .project-records {
   margin-top: 13px;
   color: #e2eadf;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .project-details {
@@ -527,7 +527,7 @@ h3 {
 .project-description,
 .project-points {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .project-points {
@@ -552,7 +552,7 @@ h3 {
   padding: 5px 9px;
   border: 1px solid var(--line);
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -572,14 +572,14 @@ h3 {
 .timeline-date {
   padding-top: 4px;
   color: var(--green);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 }
 
 .timeline-kind {
   margin: 0 0 7px;
   color: var(--coral);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -592,7 +592,7 @@ h3 {
 .timeline-place {
   margin-bottom: 10px;
   color: var(--green);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -600,7 +600,7 @@ h3 {
   max-width: 680px;
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .resume {
@@ -655,13 +655,13 @@ h3 {
 }
 
 .resume-download strong {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .resume-download small {
   margin-top: 3px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .download-arrow {
@@ -698,7 +698,7 @@ h3 {
   max-width: 350px;
   margin: 20px 0 25px;
   color: #d4e3d7;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .button-light {
@@ -729,12 +729,12 @@ h3 {
 
 .contact-links a > span:first-child {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .contact-links strong {
   overflow-wrap: anywhere;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -755,7 +755,7 @@ h3 {
 .back-top {
   margin: 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .back-top span {
@@ -782,7 +782,7 @@ h3 {
 
   .site-nav {
     gap: 15px;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .hero {
@@ -975,7 +975,7 @@ h3 {
 
   .skill-row p {
     grid-column: 1;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .project-feature {
@@ -1041,7 +1041,7 @@ h3 {
   }
 
   .contact-links strong {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .site-footer {
